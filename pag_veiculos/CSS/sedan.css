@@ -1,0 +1,361 @@
+/* fonte roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* header */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    height: 100px;
+    align-items: center;
+    background-color: #5A88E0;
+}
+
+#container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: green;  */
+}
+
+.icon-coracao i, .icon-carrinho i, .icon-perfil i {
+    font-size: 22px;
+}
+
+.icon-coracao {
+    position: relative;
+    /* background-color: blue; */
+    height: 45px;
+    width: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+.icon-carrinho {
+    position: relative;
+    /* background-color: green; */
+    height: 45px;
+    width: 35px;
+    display: flex;
+    align-items: flex-end; 
+}
+.icon-perfil {
+    position: relative;
+    height: 41px;
+    width: 35px;
+    display: flex;
+    align-items: flex-end; 
+    /* background-color: red; */
+}
+
+.icon-coracao label, .icon-carrinho label {
+    position: absolute;
+    background-color: red;
+    border-radius: 100px;
+    height: 19px;
+    width: 19px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    top: 0;
+    right: 1%;
+}
+
+#icones-direita {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: red; */
+}
+
+.links-opcoes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 50px;
+}
+
+.botao-menuzinho {
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.botao-menuzinho:hover, .dropdown-toggle.show {
+    background-color: #2057be;
+}
+
+.btn.dropdown-toggle:active {
+    background-color: #2e6ee7;
+}
+
+.bi-person-circle:hover, .bi-heart-fill:hover, .bi-cart4:hover {
+    color: #00389f;
+}
+
+.title-logo {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#container-logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.dropdown-item:hover {
+    background-color: #5a89e023;
+}
+
+.banner-div  {
+    position: relative;
+    opacity: 0.7;
+    
+ }
+ 
+ .banner-div img {
+     width: 100%;
+ }
+ 
+ .banner-audi {
+     position: absolute;
+     top: 100px;
+     margin-left: 880px;
+     font-size: 50px;
+     background-color: black;
+     color: white;
+     border-radius: 8px;
+ }
+ 
+ .grid-item:hover {
+     opacity: 0.7;
+     
+ }
+ 
+ 
+
+   #gridinha-1{
+    background-image: url('../../assets/img-veiculos/suvs/suv31.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+   }
+   #gridinha-2{
+    background-image: url('../../assets/img-veiculos/suvs/suv32.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   #gridinha-3{
+    background-image: url('../../assets/img-veiculos/suvs/suv34.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   #gridinha-4{
+    background-image: url('../../assets/img-veiculos/suvs/suv35.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+   }
+   #gridinha-5{
+    background-image: url('../../assets/img-veiculos/suvs/suv36.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   #gridinha-6{
+    background-image: url('../../assets/img-veiculos/suvs/suv2.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   #gridinha-7{
+    background-image: url('../../assets/img-veiculos/suvs/suv38.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   #gridinha-8{
+    background-image: url('../../assets/img-veiculos/suvs/suv39.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   #gridinha-9{
+    background-image: url('../../assets/img-veiculos/suvs/suv40.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Para manter proporção da área do item */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+ 
+   .grid-container {
+     display: grid;
+     grid-template-columns: repeat(3, 2fr);
+     gap: 20px;
+     padding: 20px;
+     height: fit-content;
+     
+   }
+
+ 
+   .grid-item img {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+ 
+   .opacidade {
+     opacity: 0.7;
+   }
+ 
+   .textinho-do-carro1 {
+     position: absolute;
+     top: 20%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     opacity: 0;
+   }
+  /*  */
+  /*  */
+  footer {
+    background-color: #5A88E0;
+    padding: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.icons-redes {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: fit-content;
+}
+
+.icons-redes a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.icons-redes a:hover {
+    /* text-decoration: underline; */
+    color: white;
+}
+
+.icons-redes a i {
+    font-size: 20px;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-info-footer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.div-info-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.div-info-footer a:hover {
+    color: white;
+    /* text-decoration: underline; */
+}
+
+.elementos-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+.elementos-down {
+    background-color: #19366d;
+    width: 100%;
+    color: white;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.icon-perfil {
+    position: relative;
+    height: 41px;
+    width: 35px;
+    display: flex;
+    align-items: flex-end; 
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    /* background-color: red; */
+}
